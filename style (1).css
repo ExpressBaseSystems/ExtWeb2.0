@@ -20,6 +20,12 @@
     margin-left: 20px;
   }
 }
+@media (min-width: 550px) {
+  .doc{
+     margin-top: 20px;
+  }
+
+}
 .btn-head:hover{
   background-color: #0f4dab;
 }
@@ -619,6 +625,19 @@ margin-bottom: 10px;
 
 /* style end*/
 
+.tenant{
+  margin-top: 195px!important;
+
+}
+
+
+
+@media (min-width: 20px) and (max-width: 550px){
+  .margins{
+    margin-left: 20px!important
+  }
+}
+
 /* carrousel */
 .carousel-item img {
   width: 100%;
@@ -757,7 +776,7 @@ float: left;
 max-width: 60px;
 width: 100%;
 margin-right: 20px;
-border-radius: 50%;
+/* border-radius: 50%; */
 }
 
 .loops img.right {
