@@ -14,14 +14,12 @@
 .cloud {
     position: absolute;
     animation: moveCloud linear infinite;
-    background-image: url("./cloud.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .clouds2 {
     position: absolute;
     animation: moveCloud linear infinite;
-    background-image: url("./cloud.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 120px;
