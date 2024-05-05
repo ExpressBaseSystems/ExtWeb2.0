@@ -21,17 +21,22 @@
     border: 1px solid white;
     background-color: #193054;
     color: white;
-    border-radius: 4px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 7px;
+    padding-left: 25px;
     margin-left: 30px;
+    padding-right: 25px;
 }
-  .pck{
-    
-    padding-left: 71px;
-  }
 
+.pck {
+  padding-left: 71px;
+  padding-top: 13px;
+}
+.cic{
+  margin-top: -5px;
+}
   .bck{
-    margin-top: 10px;
+    margin-top: 15px;
   }
   @keyframes slide-up {
     from {
@@ -41,4 +46,19 @@
       transform: translateY(0);
     }
   }
+  @media (max-width: 768px) {
+    .bck {
+      margin-top: -7px !important;
+      padding-left: -10px !important;
+      margin-left: -8% !important;
+    }
+    .pck {
+      padding-left: 20px !important;
+      padding-top: 13px;
+    }
+  }
+  
+
+
+
   

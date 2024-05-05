@@ -1,0 +1,137 @@
+.carousel-card {
+    border: none;
+}
+/* .mfcrsl {
+    height: 700px; 
+} */
+
+.carousel-item {
+    height: 100%; /* Ensure each carousel item takes the full height */
+}
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1.5;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+/* Customize the next arrow icon */
+.carousel-control-next-icon {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black; /* Adjust color as needed */
+    
+    /* display: none; */
+}
+
+/* Customize the previous arrow icon */
+.carousel-control-prev-icon {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid black; /* Adjust color as needed */
+    /* display: none; */
+
+}
+
+.mmg {
+    width: 315px;
+    margin-left: -10px;
+}
+
+.carousel-item.active .carousel-card {
+    border-top: 7px solid;
+    border-top-color: #79C977; 
+    
+    transition: border-top-color 0.3s ease; }
+
+/* .mf{
+    border-top: 8px solid;
+    border-top-color: #79C977;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: border-top-color 0.3s ease;
+} */
+.slide{
+    margin-top: -1.2rem;
+}
+.icon {
+    margin-left: 65px;
+}
+
+.mch {
+    margin-left: -120px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.mmh{
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.mmp{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+}
+.mbtn{
+    margin-left: -9.5rem;
+}
+.mbd{
+    padding-bottom: 15px;
+}
+
+
+/* M carousel */
+
+.mbg{
+    background-color: #193054;
+    }
+
+.mbmg{
+    width: 330px;
+    margin-left: -3px;
+    margin-top: 5%;
+}
+
+.mflogo{
+    margin-top: -18px;
+    margin-left: -6px;
+}
+
+.muc{
+    margin-left: -150px;
+}
+
+.mmainh{
+    margin-top: .5rem;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.custom-carousel .carousel-control-next-icon {
+    /* Your custom styles for the next arrow */
+    border-left-color:#ffff; /* Change the color to red as an example */
+    margin-top: -5rem !important;
+    margin-left: 32px !important;  }
+  
+  .custom-carousel .carousel-control-prev-icon {
+    /* Your custom styles for the previous arrow */
+    border-right-color: #ffff; /* Change the color to red as an example */
+    margin-top: -5rem !important;
+    margin-left: -37px  ;
+}
+.carousel-indicators {
+    display: none !important;
+  }
+ 

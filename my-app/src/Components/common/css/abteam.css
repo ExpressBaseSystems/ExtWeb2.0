@@ -1,6 +1,6 @@
 .teamview {
     width: 100%;
-    height: 2797px;
+    height: 2940px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +17,8 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
 .clouds2 {
     position: absolute;
     animation: moveCloud linear infinite;
@@ -38,13 +40,13 @@
 }
 
 .cloud2 {
-    top: 828px; /* Adjusted position */
+    top: 889px; /* Adjusted position */
     left: -400px;
     animation-duration: 30s;
 }
 
 .cloud3 {
-    top: 1400px; /* Adjusted position */
+    top: 1376px; /* Adjusted position */
     left: -500px;
     animation-duration: 30s; /* Slower animation */
 }
@@ -77,14 +79,29 @@
     }
     .txmg{
         padding-bottom: 105px ;
+       
     }
-    
-    
+    .blh{
+      font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-style: normal;
+    }
+    .blhic{
+      font-family: "Blinker", sans-serif;
+    font-style: normal;
+    }
+    .blp{
+      
+        font-family: "Fira Sans", sans-serif !important;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+      }
+  .amt{
+    margin-top: -17px;
+  }
    
-
-   .ttxt{
-    font-family:Montserrat;
-   }
    .contribute {
     position: absolute;
     top: -100px; 
@@ -109,21 +126,20 @@
    }
 
 .contribute-1 {
-    height: 338px; /* height for first image */
-    width: 99%; /* width for first image */
-    margin-top: -84px; /* margin for first image */
-    animation: slideFromTop 1s ease forwards; /* animation for first image */
-    padding-left: 46px;
+  height: 298px;
+  width: 100%;
+  margin-top: -87px;
+  animation: slideFromTop 1s ease forwards;
+  padding-left: 84px;
   }
   
   /* For Contributers2 (bottom image) */
   .contribute-2 {
-    height: 334px; /* height for second image */
-    width: 95%; /* width for second image */
-    margin-top: 140px; /* margin for second image */
-    animation: slideFromBottom 1s ease forwards; /* animation for second image */
-    padding-right: 23px;
-
+    height: 300px;
+    width: 94%;
+    margin-top: 113px;
+    animation: slideFromBottom 1s ease forwards;
+    padding-left: 3px;
   }
   
   @keyframes slideFromTop {
