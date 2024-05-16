@@ -36,7 +36,7 @@
   }
   
   .demo {
-    margin-left: 8rem; /* Adjust margin as needed */
+    margin-left: 11rem; /* Adjust margin as needed */
   }
   .link{
     color: black !important;
@@ -140,6 +140,8 @@
       box-shadow: none; /* Remove box shadow */
       border-radius: 3px; /* Remove border radius */
       background-color: transparent; /* Set background color */
+      border: none;
+      width: 120%;
     }
     .btnav{
       margin-top: 10px;
@@ -149,15 +151,24 @@
       margin-top: 15px;
       border-bottom: 1px solid #ececec    ;
     }
-    .demo{
+    .demo {
       border-bottom: none;
-    }
+      margin-left: 8rem;
+  }
    .logo-img{
     margin-left: -1.9rem;
    }
    .navbar-toggler{
     margin-left: -0.5rem;
    }
+   .navbar-toggler-icon{
+    margin-left: 120%;
+   }
+   .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:none;
+}
   }
   
   

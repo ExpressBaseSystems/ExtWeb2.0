@@ -15,14 +15,13 @@ function Poverview() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-white pl_bottom">
-            <div className="logo-container">
-              <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-              <p className='pare'>Tech Stack</p>
-            </div>
-            <h3 className="phead">Open-source, Cloud-native Platform</h3>
-            <p className="ppara1 pt-4">
-           EXPRESSbase low-code platform is build using open-source technologies 
-           </p> 
+            {/* <div className="logo-container">
+              <img src={logo} alt="Logo" className="logo" /> 
+              <p className='pare text-light'>Tech Stack</p>
+            </div> */}
+            <h3 className="phead text-white">Build custom applications using Low-code</h3>
+            <p className="ppara1  text-light pt-3">
+            EXPRESSbase is an advanced low-code platform that empowers business users to create custom database-driven applications 10x faster           </p> 
            <div className="plf"style={{backgroundImage: `url(${plfpg})`}}>
            </div>
            </div>

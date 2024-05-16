@@ -1,13 +1,49 @@
 .carousel-card {
     border: none;
 }
-/* .mfcrsl {
-    height: 700px; 
-} */
+.mfcrsl {
+    /* height: 700px;  */
+    margin-top: -2.2rem !important;
+    position: relative;
+    background-color: #E5F0FF    ;
+    width: 114%;
+    margin-left: -7%;
+    border-radius: 8px;
+}
+.mfclogo {
+    margin-top: -3rem;
+    margin-left: 73px;
+    width: 24px;
+    height: 24px;
+}
+.mfuc {
+    margin-left: -50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -1.3rem;}
+
+.custom-carousel .carousel-item.active .card{
+    border-top: 7px solid;
+    border-top-color: #79C977;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.custom-carousel .carousel-inner {
+   
+    border-radius: 8px;
+}
+  
+.cbm{
+    margin-left: 6%;
+    margin-top: 1rem
+}
 
 .carousel-item {
     height: 100%; /* Ensure each carousel item takes the full height */
 }
+
+ .carousel-content{
+    margin-left: 1.5rem }
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 1.5;
@@ -17,7 +53,6 @@
     z-index: 1000;
 }
 
-/* Customize the next arrow icon */
 .carousel-control-next-icon {
     content: '';
     display: inline-block;
@@ -25,12 +60,10 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 10px solid black; /* Adjust color as needed */
-    
-    /* display: none; */
+    border-left: 10px solid black; 
+    display: none;
 }
 
-/* Customize the previous arrow icon */
 .carousel-control-prev-icon {
     content: '';
     display: inline-block;
@@ -38,14 +71,16 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid black; /* Adjust color as needed */
-    /* display: none; */
+    border-right: 10px solid black; 
+    display: none;
 
 }
 
 .mmg {
-    width: 315px;
-    margin-left: -10px;
+    width: 100%; /* Adjust the width to 100% */
+    max-width: 350px; /* Set a maximum width if needed */
+    /* margin-left: -10px; */
+    padding-bottom: 2rem;
 }
 
 .carousel-item.active .carousel-card {
@@ -80,11 +115,17 @@
     font-style: normal;
 }
 .mmp{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Fira Sans", sans-serif;
 }
+.mw{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    padding-top: 1rem;
+}
+
 .mbtn{
-    margin-left: -9.5rem;
+    margin-left: -9rem;
 }
 .mbd{
     padding-bottom: 15px;
@@ -96,11 +137,20 @@
 .mbg{
     background-color: #193054;
     }
+    .mfbg{
+background-color: #E5F0FF;
+border: none;        }    
+.wbg {
+    background-color: #193054;
+    border-radius: 0;
+}
 
 .mbmg{
-    width: 330px;
-    margin-left: -3px;
-    margin-top: 5%;
+    width: 345px;
+    /* height: 112% !important; */
+    margin-left: -31px;
+    margin-top: 10%;
+    padding-bottom: 5rem;
 }
 
 .mflogo{
@@ -109,12 +159,13 @@
 }
 
 .muc{
-    margin-left: -150px;
+    margin-left: -137px;
 }
 
 .mmainh{
     margin-top: .5rem;
     font-family: "Blinker", sans-serif;
+    font-size: 22px;
     font-weight: 700;
     font-style: normal;
 }
@@ -123,15 +174,25 @@
     /* Your custom styles for the next arrow */
     border-left-color:#ffff; /* Change the color to red as an example */
     margin-top: -5rem !important;
-    margin-left: 32px !important;  }
+    margin-left: 32px !important; 
+        display: none !important;
+
+ }
   
   .custom-carousel .carousel-control-prev-icon {
     /* Your custom styles for the previous arrow */
     border-right-color: #ffff; /* Change the color to red as an example */
     margin-top: -5rem !important;
     margin-left: -37px  ;
+        display: none !important;
+
 }
-.carousel-indicators {
-    display: none !important;
-  }
- 
+@media (max-width: 500px) and (min-width: 400px) {
+    .mmg {
+        width: 100%;
+        max-width: 427px;
+        margin-left: 0px;
+        padding-bottom: 2rem;
+    }
+}
+

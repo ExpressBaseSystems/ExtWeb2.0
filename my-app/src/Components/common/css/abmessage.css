@@ -80,7 +80,7 @@
 
 
    .atrusted-img {
-    height: 34px;
+    height: 50px;
     width: 157px;
     margin: 20px;
 }
@@ -114,7 +114,18 @@
   height: 36px; /* Set a fixed height for the wrapper */
   overflow: hidden; /* Hide overflow to prevent distortion */
 }
-
+.image-wrappers {
+  width: 79%; /* Ensure the wrapper takes full width */
+  height: 36px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+.mimage-wrappers {
+ margin-left: -14rem
+}
+.md1{
+  margin-left: 0 !important;
+}
+;
 /* Style for the images inside the wrapper */
 .image-wrappers img {
   width: 105%; /* Make the image cover full width */
@@ -123,6 +134,10 @@
 .limgs{
 max-width: 188px !important;
 margin-top: -9px;
+}
+.limgs1{
+  max-width: 188px !important;
+
 }
 
 .image-wrapperk {
@@ -147,9 +162,123 @@ margin-top: -2px;
   height: 50px; /* Set a fixed height for the wrapper */
   overflow: hidden; /* Hide overflow to prevent distortion */
 }
+.trusted-item{
+  padding:0.5rem;
+}
 
 .image-wrapper img {
   width: 100%; 
   height: 100%; 
   /* object-fit: cover;  */
 }
+
+.abm2{
+  margin-left: -2rem;
+}
+.abp2{
+  margin-left: -10rem;
+}.abm3{
+  margin-left: 9rem;
+}.abp3{
+  margin-left: -1rem;
+}
+.abm55 {
+    margin-left: 19rem;
+  }
+.abp5{
+  margin-left: -1rem;
+}.abp6{
+  margin-left: -3rem;
+  width: 98%;
+}
+.abp66{
+  margin-left: -3rem;
+}
+
+
+.mabp{
+  width: 95%;
+    margin-left: .5rem;
+}
+
+/* Inside abmessage.css */
+
+@media only screen and (max-width: 768px) {
+  .loops {
+    flex-direction: column; /* Stack loops vertically on smaller screens */
+    width: 100%; /* Make loops take full width on smaller screens */
+  }
+  .loops.lighter,
+  .loops.darker {
+    margin-left: 0; /* Reset margin left */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    overflow: hidden; /* Hide overflow to create half-circle effect */
+  }
+  .loops.lighter:before,
+  .loops.darker:before {
+    content: ""; /* Add content for pseudo-element */
+    position: absolute; /* Position absolute for positioning */
+    top: 0; /* Align to the top */
+    left: -20px; /* Adjust left position for half-circle */
+    width: 40px; /* Width of half-circle */
+    height: 100%; /* Full height */
+    background-color: inherit; /* Inherit background color */
+    border-radius: 0 50% 50% 0; /* Half-circle border radius */
+  }
+  
+  .loops p {
+    margin-left: 0; /* Reset paragraph margin */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+  .loops img {
+    width: 100%; /* Make images take full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .absupport {
+    margin-left: 0; /* Reset margin left */
+    padding-bottom: 20px; /* Reduce padding bottom */
+  }
+  .supportedbyico {
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  .supportedbyico .col-md-3 {
+    width: 50%; /* Make each column take half width */
+    padding: 0 5px; /* Add some horizontal padding between columns */
+  }
+  .atrusted-img {
+    width: 100%; /* Make images take full width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Add some vertical margin */
+  }
+  .abm2,
+  .abm1,
+  .abm5,
+  .abm6 {
+    width: auto !important; /* Reset image widths */
+    height: auto; /* Reset image heights */
+  }
+  .abp2,
+  .abp3,
+  .abp5,
+  .abp6 {
+    margin-left: 0; /* Reset paragraph margin left */
+  }
+  
+}
+
+.mtrusted-item{
+  padding: 1rem;
+}
+.tbody {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a box shadow for a 3D look */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+
+.tbody:hover {
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover for more depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+

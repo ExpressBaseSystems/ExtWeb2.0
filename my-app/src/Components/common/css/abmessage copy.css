@@ -1,0 +1,220 @@
+
+.loops {
+    background-color: #ffffff;
+    background-image: linear-gradient(425deg, #ffffff 14%, #5078f2 84%);
+    padding: 10px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 111%;
+    margin: 20px auto;
+  }
+  
+  .team {
+    height: 14.75em;
+    width: 12.12em;
+  }
+
+  .lighter{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .darker {
+    background-color: rgba(255, 255, 255, 0.5); 
+    background-image: linear-gradient(205deg, #ffffff 15%, #91a6ff 74%);
+    margin-left: 8%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  .loops::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .limg {
+    max-width: 145px !important;
+  }
+  
+  .rimg {
+    max-width: 104px !important;
+  }
+  
+  .loops img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  .loops img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  
+  .diamension {
+    height: 52px;
+    width: 52px;
+  }
+  
+  .supportedbyico {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ 
+
+
+   .atrusted-img {
+    height: 50px;
+    width: 157px;
+    margin: 20px;
+}
+.abm2{
+    width: 162px;
+    height: 45px;
+}
+.abm1{
+    width: 236px;
+    height: 46px;
+}
+.abm5{
+    width: 100px !important;
+    height: 46px;
+}.abm6{
+    width: 85px !important;
+    height: 45px;
+}
+.absupport {
+    padding-bottom: 40px;
+    margin-left: -88px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    font-style: normal
+}
+/* In your CSS file, e.g., abmessage.css */
+
+/* Style for the image wrapper */
+.image-wrappers {
+  width: 79%; /* Ensure the wrapper takes full width */
+  height: 36px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+
+/* Style for the images inside the wrapper */
+.image-wrappers img {
+  width: 105%; /* Make the image cover full width */
+  height: 107%; /* Make the image cover full height */
+}
+.limgs{
+max-width: 188px !important;
+margin-top: -9px;
+}
+
+.image-wrapperk {
+  width: 17%; /* Ensure the wrapper takes full width */
+  height: 44px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+
+/* Style for the images inside the wrapper */
+.image-wrapperk img {
+  width: 100%; /* Make the image cover full width */
+  height: 110%; /* Make the image cover full height */
+}
+.limgk{
+max-width: 160px !important;
+margin-top: -2px;
+}
+
+
+.image-wrapper {
+  width: 12%; /* Ensure the wrapper takes full width */
+  height: 50px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+.trusted-item{
+  padding:0.5rem;
+}
+
+.image-wrapper img {
+  width: 100%; 
+  height: 100%; 
+  /* object-fit: cover;  */
+}
+
+.abm2{
+  margin-left: -2rem;
+}
+.abp2{
+  margin-left: -10rem;
+}.abm3{
+  margin-left: 9rem;
+}.abp3{
+  margin-left: -1rem;
+}.abm55{
+  margin-left: 17rem;
+}.abp5{
+  margin-left: -2rem;
+}.abp6{
+  margin-left: -3rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .absupport{
+    margin-left: 0;
+  }
+  .image-wrappers {
+    width: 140%;
+    height: 36px;
+    overflow: hidden;
+    margin-top: -4.5rem;
+    margin-left: -3rem;
+}
+.abp {
+  margin-top: -2px;
+  width: 60%;
+  margin-left: 0.5rem;
+  margin-bottom: -4px;
+}
+.image-wrappers img {
+  width: 89% !important;
+  height: 161% !important;
+  /* margin-top: -0.5rem !important; */
+  /* margin-left: -0.5rem !important; */
+}
+
+.limgs {
+  max-width: 125px !important;
+  margin-top: -10px;
+}
+}
+
+.tbody {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a box shadow for a 3D look */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+
+.tbody:hover {
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover for more depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+

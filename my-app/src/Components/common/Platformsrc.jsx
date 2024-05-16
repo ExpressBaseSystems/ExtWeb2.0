@@ -18,10 +18,10 @@ function Platformsrc() {
         <div className="text-center pt-5">
         <div className="logo-container">
               <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-              <p className='pare'>Tech Stack</p>
+              <p className='pare'>TECH STACK</p>
             </div>
             <h3 className="phead">Open-source, Cloud-native Platform</h3>
-            <p className="ppara1 pt-4">
+            <p className="ppara1 pt-1">
            EXPRESSbase low-code platform is build using open-source technologies 
            </p>  
         </div>

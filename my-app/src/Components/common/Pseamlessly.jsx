@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Group.png'; // Import your logo file
+import logo from '../images/icintblk.png'; // Import your logo file
 import host from '../images/wheel1.png'; // Import your logo file
 
 import './css/platform.css'; // Import the CSS file for styling
@@ -10,11 +10,11 @@ function Pseamlessly() {
     <div className=' text-cente ps'> 
         <div className="text-center ">
         <div className="logo-container">
-          <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-          <p className='pare'>Integrations</p>
+          <img src={logo} alt="Logo" className="plogo" /> {/* Insert your logo here */}
+          <p className='pare mx-2'>INTEGRATION</p>
         </div>
         <h3 className="phead">Seamlessly Bridging Platforms</h3>
-        <p className="ppara1 pt-4">
+        <p className="ppara1 pt-1">
         Powering Productivity through Integrations to third-party systems/platforms        </p>  
        </div>
        <div className="row-container psrow">

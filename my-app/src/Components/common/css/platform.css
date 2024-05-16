@@ -1,5 +1,5 @@
 .platform-header {
-    min-height: 730px;
+    min-height: 665px;
     width: 100%;
     font-family: alata;
     font-weight: 300;
@@ -7,6 +7,20 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .ploutoverlay {
+    min-height: 665px;
+    width: 100%;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    background-color: rgba(0, 0, 2, 0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+  }
+  /* .pw{
+    color: white !important;
+  } */
   .plf {
     width: 70%;
     height: 300px;
@@ -20,9 +34,12 @@
   }
   .prleft{
     margin-left: 20%;
-    max-width: 78%;
+    max-width: 75%;
     height: auto;
-  }
+    color: #193054;
+    line-height: 2;
+    font-family: "Fira Sans", sans-serif;
+}
   .prright{
     max-width: 75%;
     height: auto;
@@ -49,12 +66,14 @@
   .pare{
     font-size: 18px;
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #193054;
+    font-family: "Blinker", sans-serif;
     margin-top: 1rem;
   }
   .phead {
-    font-size: 64px;
-    /* font-family: "Blinker", sans-serif; */
+    font-size: 62px;
+    color: #193054;
+    font-family: "Blinker", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -67,8 +86,11 @@
 
   }
   .ppara1{
-    font-size: 20px;
+    font-size: 18px;
+    color: #193054;
     font-style: normal;
+    font-family: "Fira Sans", sans-serif;
+
   }
  .provideroverlay{
   background: linear-gradient(to bottom,#021125  , #406CAA  );
@@ -80,8 +102,8 @@
  }
  .proverlay{
     width: 100%;
-  height: 651px;
-  }
+    height: 8rem;
+    }
   .plcontent{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif ;
@@ -89,7 +111,11 @@
     width: 100%;
     height: 651px;
   }
-
+  .logo {
+    width: 24.33px;
+    height: 24.33px;
+    margin-right: 10px;
+}
   .plcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -124,6 +150,8 @@
   .card-description {
     padding: 60px;
     text-align: center;
+    font-family: "Fira Sans", sans-serif;
+
   }
   
   
@@ -140,6 +168,10 @@
   .ppleft{
     margin-left: 22%;
     margin-top: 10%;
+    width: 70%;
+    line-height: 2;
+    font-family: "Fira Sans", sans-serif;
+
   }
   .psleft{
     margin-left: 20%;
@@ -151,18 +183,31 @@
     transform: scale(1.1); /* Adjust the scaling factor as needed */
 
   }
+  
+    .ppdeploy {
+      width: 33.79px;
+      height: 55.64px;
+  }
+
   .piright{
     max-width: 68%;
     height: auto;
-    margin-top: 17%;
-    margin-left: 10%;
+    margin-top: 9%;
+    margin-left: 5%;
   }
-  .psright{
-    max-width: 63%;
+  .piright:hover{
+    transform: scale(1.1);
+  }
+  .psright {
+    max-width: 62%;
     height: auto;
     margin-top: -8%;
     margin-left: 9%;
-  }
+    line-height: 2;
+    color: #193054;
+    font-family: "Fira Sans", sans-serif;
+
+}
   .right-content {
     flex: 1;
   }
@@ -175,3 +220,91 @@
   .ptruly{
     margin-top: 6%;
   }
+  .sb{
+    margin-top: 1.2em;
+    margin-bottom: 6.5em;
+  }
+
+  @media (max-width: 768px) {
+  .phead{
+    font-size: 32px;
+  }
+  .plf{
+    width: 90%;
+    height: 165px;
+    margin-left: 1rem;
+  }
+  .platform-header{
+    min-height: 521px;
+  }
+  .ploutoverlay{
+    min-height: 521px;
+  }
+  .card-description {
+    padding: 19px; /* Adjust padding for mobile devices */
+    font-size: 16px; /* Adjust font size for mobile devices */
+    overflow-y: auto; /* Add overflow property for scroll if necessary */
+    line-height: 1.6;
+  }
+  .colp {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-bottom: 2rem;
+}
+.plcontainer{
+  margin-top: -5rem;
+}
+.row-container {
+  display: flex;
+  flex-direction: column; /* Display as column on mobile */
+  align-items: center; /* Center align content */
+}
+
+.left-content, .right-content {
+  width: 100%; /* Make both left and right content take full width */
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Add margin between left and right content */
+}
+.ppleft {
+  margin-left: 22px;
+  line-height: 2;
+  width: 91%;                                                       
+  text-align: left;
+}
+.ppara1{
+  font-size: 18px;
+}
+.piright {
+  max-width: 97%;
+  height: auto;
+  margin-top: 0;
+  margin-left: 0;
+}
+.provideroverlay{
+  width: 99%;
+    height: 795px;
+}
+.sb{
+  margin-bottom: .5rem;
+}
+.psleft {
+  margin-left: 0;
+  max-width: 85%;
+  height: auto;
+  margin-top: 6%;
+}
+.psright {
+  max-width: 85%;
+  height: auto;
+  line-height: 2.5;
+  width: 91%;
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.ptruly {
+  margin-top: -6%;
+}
+  }
+

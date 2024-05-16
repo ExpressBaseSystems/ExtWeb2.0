@@ -24,22 +24,21 @@ function Pfeatures() {
         </div>
         <div className="container text-center">
         <div
-            className='row '
-            style={{ marginTop: '1.2em', marginBottom: '6.5em' }}
-          >            <div className="col-md-4 col-sm-6 pt-4 center">
+            className='row sb ' >
+            <div className="col-md-4 col-sm-6 pt-4 center">
               <img className='pdeploy' src={pf1} alt="" />
               <h5 className="t-head da " style={{ color: '#193054' }}>Futuristic Builders</h5>
               <p className="pfeatures">Forget about the server infrastructure, leave it to us. Focus on your applications and business.
                     </p>
             </div>
             <div className="col-md-4 col-sm-6  pt-4 center">
-            <img className="pdeploy" src={pf2} alt="" />
+            <img className="rdeploy" src={pf2} alt="" />
               <h5 className="t-head da" style={{ color: '#193054' }}>Low Code</h5>
               <p className="pfeatures">No-code platforms can't handle complex needs. That's why we're low-code. Use your skills: code in JavaScript, C#, & SQL</p>
             </div>
             <div className="col-md-4 col-sm-6  pt-4 center ">
               <img className='pdeploy' src={pf3}alt="" /><br /><br />
-              <h5 className="t-head" style={{ color: '#193054' }}>deploy Anywhere</h5>
+              <h5 className="t-head" style={{ color: '#193054' }}>Deploy Anywhere</h5>
               <p className="pfeatures">Use our best-in-class developer studio to develop business apps that can run on web and  mobile.</p>
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">
@@ -53,8 +52,8 @@ function Pfeatures() {
               <p className="pfeatures">No code platforms don’t work for complex requirements. Precisely why we are low-code. Put your existing skills to use, code in JavaScript, C# & SQL.</p>
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">
-              <img className='pdeploy' src={pf6} alt="" /><br /><br />
-              <h5 className="t-head" style={{ color: '#193054' }}>Multilocation</h5>
+              <img className='ppdeploy' src={pf6} alt="" /><br /><br />
+              <h5 className="t-head" style={{ color: '#193054' }}>Multi Location</h5>
               <p className="pfeatures">Traditional development is costly and time-consuming. Build complex business apps 10x faster with our platform.</p>
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">

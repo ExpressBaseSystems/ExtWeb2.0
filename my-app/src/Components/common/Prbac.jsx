@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Group.png'; // Import your logo file
+import logo from '../images/rbic1.png'; // Import your logo file
 import host from '../images/RBAC1.png'; // Import your logo file
 
 import './css/platform.css'; // Import the CSS file for styling
@@ -11,10 +11,10 @@ function Prbac() {
         <div className="text-center ">
         <div className="logo-container">
           <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-          <p className='pare'>Security</p>
+          <p className='pare'>SECURITY</p>
         </div>
         <h3 className="phead">Application Security using RBAC</h3>
-        <p className="ppara1 pt-4">
+        <p className="ppara1 pt-1">
         Unlimited Roles, Roles hierarchy, Constraints- Confirms to RBAC Standard   </p>  
        </div>
        <div className="row-container prrow">

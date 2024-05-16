@@ -8,7 +8,8 @@
   .btnare{
     background: linear-gradient(to bottom, #154992, #193054  );
     font-family: "Blinker", sans-serif;
-    padding: 1rem;
+    padding: .8rem;
+    font-size: 16px;
     font-weight: bold;
   }
   
@@ -24,7 +25,7 @@
     margin-left: 14px;
   }
   .para1 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
   }
@@ -98,7 +99,7 @@
       /* padding-top: 10px; */
     }
     .are{
-      font-size: 16px;
+      font-size: 20px;
     }
     .para1{
       padding-top: 1.5rem !important;
@@ -125,14 +126,15 @@
   }
   }
   @media (max-width: 400px) {
-  .arpg {
-    width: 119px;
-    height: 22px;
-    margin-left: 14px;
+    .arpg {
+      width: 140px;
+      height: 30px;
+      margin-left: 3px;
   }
+
   .mare{
     width: 22rem;
-    margin-left: -49px;
+    margin-left: -4rem;
   }
  
   }
