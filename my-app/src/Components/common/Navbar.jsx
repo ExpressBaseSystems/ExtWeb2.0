@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand log" href="#">
+        <a className="navbar-brand log" href="/">
           <img className="logo-img mr-3" src={group8} alt="" width="268" height="52" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,47 +24,106 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav text-left mb-2 mb-lg-0">
-            <li className="nav-item dropdown mx-4">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Platform
-              </a>
-              <ul className="dropdown-menu platform-menu" aria-labelledby="navbarDropdown1">
-                <li className=" container-fluid platform-heading text-center">
-                <a className='link' href="/platform">  <i> <img className='po me-3' src={pv} alt="" /> </i>Platform Overview</a>
-                </li>
-                <li className="platform-item my-2">
-                  <div className="platform-text">
-                  <h6 className="hedrop"><a className='link' href="/webform"><i><img className='pv' src={web} alt="" /></i>Web Forms</a></h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                <li className="platform-item my-2">
-                  <div className="platform-text">
-                    <h6 className="hedrop"><a className='link' href="/documents">  <i> <img className='pv' src={dument} alt="" /> </i>Documents</a></h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                <li className="platform-item my-2">
-                  <div className="platform-text">
-                    <h6 className="hedrop"> <a className='link' href="/report"> <i> <img className='pv' src={report} alt="" /> </i>Reports </a></h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                <li className="platform-item my-2">
-                  <div className="platform-text">
-                    <h6 className="hedrop"><a className='link' href="/api">  <i> <img className='pv' src={api} alt="" /> </i>APIs </a></h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                <li className="platform-item ">
-                  <div className="platform-text">
-                    <h6 className="hedrop"> <a className='link' href="/mobileapp">  <i> <img className='mv' src={mob} alt="" /> </i>Mobile Apps </a></h6>
-                    <p className='mbpara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                {/* Add more items as needed */}
-              </ul>
-            </li>
+          <li className="nav-item dropdown mx-4">
+  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Platform
+  </a>
+  <ul className="dropdown-menu platform-menu" aria-labelledby="navbarDropdown1">
+    <div className="container">
+      <div className="row">
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/platform">
+                  <i><img className='po' src={pv} alt="" /></i>Platform Overview
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/webform">
+                  <i><img className='pv' src={web} alt="" /></i>Web Forms
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/documents">
+                  <i><img className='pv' src={dument} alt="" /></i>Documents
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/report">
+                  <i><img className='pv' src={report} alt="" /></i>Reports
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/api">
+                  <i><img className='pv' src={api} alt="" /></i>APIs
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/mobileapp">
+                  <i><img className='mv' src={mob} alt="" /></i>Mobile Apps
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/chatbot">
+                  <i><img className='mv' src={mob} alt="" /></i>Chat Bots
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </ul>
+</li>
+
      <li className="nav-item dropdown mx-4">
   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Usecases
@@ -72,29 +131,32 @@ function Navbar() {
   <ul className="dropdown-menu usecase-menu" aria-labelledby="navbarDropdown2">
     <li className="usec-item">
       <div className="platform-text">
-        <h6 className="udrop">Usecase</h6>
+      <a className='link' href="/Usecase1">
+      <h6 className="udrop">Usecase 1</h6>
+      </a>
         <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
-    <hr/>
     <li className="usec-item">
       <div className="platform-text">
-        <h6 className="udrop">Usecase</h6>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <a className='link' href="/Usecase2">
+      <h6 className="udrop">Usecase 2</h6>
+      </a>        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
-    <hr/>
     <li className="usec-item ">
       <div className="platform-text">
-        <h6 className="udrop">Usecase 3</h6>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <a className='link' href="/Usecase3">
+      <h6 className="udrop">Usecase 3</h6>
+      </a>          <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
-    <hr />
     <li className="usec-item ">
       <div className="platform-text">
-        <h6 className="udrop">Usecase 4</h6>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <a className='link' href="/Usecase4">
+      <h6 className="udrop">Usecase 4</h6>
+      </a>        
+       <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
   </ul>
@@ -109,7 +171,7 @@ function Navbar() {
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                Resources
               </a>
-              <ul className="dropdown-menu platform-menu" aria-labelledby="navbarDropdown1">
+              <ul className="dropdown-menu rs-menu" aria-labelledby="navbarDropdown1">
                 <li className="platform-item my-2">
                   <div className="platform-text">
                     <h6 className="hedrop"> <a className='link' href="/faq">   <i> <img className='pv' src={faq} alt="" /> </i>FAQs</a></h6>

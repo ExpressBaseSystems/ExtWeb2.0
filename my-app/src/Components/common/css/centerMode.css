@@ -4,6 +4,7 @@
     background-color:#193054; /* Set background color */
     padding: 20px; /* Add padding for spacing */
     text-align: center; /* Center align content */
+    border-radius: 1%;
   }
   
   .cslide img {
